@@ -1,0 +1,226 @@
+/**
+    * Basic Portfolio stylesheet
+**/
+
+
+* {
+   box-sizing: border-box;
+         
+      }
+/** 
+    * body style
+**/
+
+
+body {
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    color: #777777;
+    background-image: url("../images/gravel/gravel.png");
+    border: #dddddd;
+    width: 960px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 0;
+    padding-bottom: 100px;
+        }
+
+
+/** 
+    * Main header style
+**/
+
+#mainheader {
+    background: #ffffff;
+    border: #cccccc;  
+    font-family: 'Georgia', 'Times New Roman', Times, serif;  
+       }
+
+/** 
+     *  name style
+**/
+
+#name {background: #4aaaa5;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    float: left;
+     }
+#contactinfo {float: right;}
+/** 
+     * navigation bar style
+**/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+
+li {
+    float: right;
+}
+
+li a {
+        display: block; 
+        padding: 10px;
+    }
+
+/** 
+   * main content style
+**/
+#maincontent {
+    background: #ffffff;
+    border: #dddddd;
+     
+}
+/**
+  * under header style
+**/
+#pagecontent {
+    color: #4aaaa5;
+    background: #ffffff;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    clear: both; 
+      }
+
+#bio-image {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    float: left;
+}
+/** 
+line color 
+**/
+hr {
+   background-color: #4aaaa5;
+   margin-left: 20px;
+   margin-right: 20px;
+    }
+/** 
+    *paragraph style
+**/
+#para {
+    position: relative;
+    left: 10px;
+    font-size: 16px;
+    margin-right: 20px;
+    line-height: 2;
+    }
+
+/** 
+    * form style
+**/
+#formcontent {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+        }
+input {
+    width: 100%;
+}
+
+/** message box **/
+textarea {
+    height: 150px;
+    width: 100%;
+}
+
+/**
+    * submit button style
+**/
+button {
+    background: #4aaaa5;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+/** 
+      *picture styles
+**/
+#pictures {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 300px;
+        }
+
+#piccontainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+    max-height: 400px;
+   
+}
+div#piccontainer figure {
+    position: relative;
+    width: 33.3%
+    }
+
+figcaption {
+    position: absolute;
+    bottom: 5px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    margin-left: 0px;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+figure img {
+    max-width: 100%;
+}
+    
+}
+.txtbottomcenter {
+    position: absolute;
+    bottom: 5px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px; 
+    margin-left: 0px;
+    width: 100%;
+    text-align: center;
+    }
+
+/**
+   * footer style
+**/
+
+footer {
+        background: #666666;
+        text-align: center;
+        font-size: 10px;
+        padding-top: 25px;
+        padding-bottom: 5px;
+        color: whitesmoke;
+        }
+
+/** 
+    * extra footer line
+**/
+#footerline {
+    background: #4aaaa5;
+    padding: 3px; 
+    margin-bottom: -50;
+}
+   
+
+
+
+
